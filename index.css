@@ -1,0 +1,33 @@
+body {
+    background-color: #1e1e2f;
+    color: #e4e4e4;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #2c2c3a;
+    box-shadow: 0 4px 8px #00000033;
+
+}
+
+.form input {
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 13px;
+    background-color: #39394a;
+    font-size: 14px;
+    color: #dcdcdc;
+}
